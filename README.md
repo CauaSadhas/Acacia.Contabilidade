@@ -1,37 +1,28 @@
-# Demo 2 — Escritório de Contabilidade Acácia
+# Site — Acácia Contabilidade
 
-Site institucional responsivo em HTML, CSS e JavaScript puro.
+Demo institucional responsiva do Escritório Acácia, com identidade azul e branca e comunicação acolhedora.
 
-## Direção desta versão
+## Dados já configurados
 
-- Identidade visual azul e branca.
-- Comunicação profissional, acolhedora e humana.
-- Frase principal: “Sem limites para aprender. Sempre prontos para servir.”
-- Destaque para empresas, produtor rural e pessoa física.
-- Seções sobre cuidado, capacitação, departamentos e atendimento.
+- Logotipo oficial
+- WhatsApp: (67) 99827-4419
+- Instagram: @acaciacontabilidade
+- Endereço: R. Pandiá Calógeras, 527 — Centro, Aquidauana/MS — CEP 79200-000
+- Atendimento: segunda a sexta, das 7h às 11h e das 13h às 17h
 
-## Como visualizar
+## Publicar no Vercel
 
-Abra o arquivo `index.html` no navegador.
+1. Envie todos os arquivos desta pasta para um repositório no GitHub.
+2. No Vercel, escolha **Add New → Project**.
+3. Importe o repositório.
+4. Não é necessário configurar framework ou comando de build.
+5. Clique em **Deploy**.
 
-## Como publicar no Vercel
+## Estrutura
 
-1. Crie ou abra o repositório do projeto no GitHub.
-2. Envie `index.html`, `style.css`, `script.js` e a pasta `assets` para a raiz do repositório.
-3. No Vercel, conecte o repositório.
-4. Em **Framework Preset**, selecione `Other`.
-5. Não use comando de build.
-6. Clique em **Deploy**.
+- `index.html`: conteúdo da página
+- `style.css`: identidade visual e responsividade
+- `script.js`: menu, animações e ano automático
+- `assets/`: logotipo e imagens
 
-## Pontos provisórios
-
-- Número do WhatsApp.
-- E-mail e endereço.
-- Instagram e horário de atendimento.
-- Fotografia real da equipe.
-- Logotipo oficial em arquivo de boa qualidade.
-- Relação definitiva dos serviços e departamentos.
-
-## Imagens da demonstração
-
-A demonstração usa fotografias ilustrativas da Unsplash. Antes da publicação final, recomenda-se substituí-las por fotografias reais do escritório e da equipe para reforçar autenticidade e proximidade.
+As fotografias de capa e equipe ainda são ilustrativas. Para a versão final, substitua-as por imagens reais do escritório e dos colaboradores.

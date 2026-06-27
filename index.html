@@ -6,16 +6,46 @@
   <meta name="description" content="Escritório de Contabilidade Acácia — sem limites para aprender, sempre prontos para servir." />
   <title>Escritório de Contabilidade Acácia</title>
   <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AccountingService",
+    "name": "Acácia Contabilidade",
+    "image": "assets/logo-acacia.png",
+    "telephone": "+55 67 99827-4419",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Pandiá Calógeras, 527 - Centro",
+      "addressLocality": "Aquidauana",
+      "addressRegion": "MS",
+      "postalCode": "79200-000",
+      "addressCountry": "BR"
+    },
+    "sameAs": [
+      "https://www.instagram.com/acaciacontabilidade/"
+    ],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "07:00",
+        "closes": "11:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "13:00",
+        "closes": "17:00"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="header" id="inicio">
     <div class="container nav-wrap">
-      <a class="brand" href="#inicio" aria-label="Escritório de Contabilidade Acácia - início">
-        <span class="brand-mark"><span>AC</span></span>
-        <span class="brand-copy">
-          <strong>Escritório de Contabilidade</strong>
-          <small>Acácia</small>
-        </span>
+      <a class="brand" href="#inicio" aria-label="Acácia Contabilidade - início">
+        <img class="brand-logo" src="assets/logo-acacia.png" alt="Acácia Contabilidade" />
       </a>
 
       <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
@@ -167,9 +197,13 @@
           <p>Conte sua necessidade, seu momento ou o desafio que está enfrentando. A Acácia está pronta para ouvir, estudar e buscar a melhor orientação.</p>
         </div>
         <div class="contact-actions">
-          <a class="btn btn-primary btn-large" href="https://wa.me/5567999999999" target="_blank" rel="noopener">Chamar no WhatsApp <span>→</span></a>
-          <a class="contact-link" href="mailto:contato@acaciacontabilidade.com.br">contato@acaciacontabilidade.com.br</a>
-          <small>Telefone e e-mail provisórios para a demonstração</small>
+          <a class="btn btn-primary btn-large" href="https://wa.me/5567998274419?text=Olá%2C%20vim%20pelo%20site%20da%20Acácia%20Contabilidade%20e%20gostaria%20de%20conversar." target="_blank" rel="noopener">Chamar no WhatsApp <span>→</span></a>
+          <div class="contact-details" aria-label="Informações de contato">
+            <a href="tel:+5567998274419"><strong>Telefone</strong><span>(67) 99827-4419</span></a>
+            <a href="https://www.instagram.com/acaciacontabilidade/" target="_blank" rel="noopener"><strong>Instagram</strong><span>@acaciacontabilidade</span></a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Rua%20Pandiá%20Calógeras%2C%20527%2C%20Centro%2C%20Aquidauana%20MS%2C%2079200-000" target="_blank" rel="noopener"><strong>Endereço</strong><span>R. Pandiá Calógeras, 527 — Centro</span></a>
+            <div><strong>Atendimento</strong><span>Segunda a sexta, 7h–11h e 13h–17h</span></div>
+          </div>
         </div>
       </div>
     </section>
@@ -178,20 +212,19 @@
   <footer class="footer">
     <div class="container footer-grid">
       <div>
-        <a class="brand brand-footer" href="#inicio">
-          <span class="brand-mark"><span>AC</span></span>
-          <span class="brand-copy"><strong>Escritório de Contabilidade</strong><small>Acácia</small></span>
+        <a class="brand brand-footer" href="#inicio" aria-label="Acácia Contabilidade - início">
+          <img class="footer-logo" src="assets/logo-acacia.png" alt="Acácia Contabilidade" />
         </a>
         <p>Sem limites para aprender.<br>Sempre prontos para servir.</p>
       </div>
       <div><h4>Navegação</h4><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#departamentos">Departamentos</a><a href="#equipe">Equipe</a></div>
-      <div><h4>Atendimento</h4><span>Aquidauana — MS</span><span>Segunda a sexta</span><span>Horário a confirmar</span></div>
-      <div><h4>Contato</h4><a href="#contato">WhatsApp</a><a href="#contato">Instagram</a><a href="#contato">E-mail</a></div>
+      <div><h4>Atendimento</h4><a href="https://www.google.com/maps/search/?api=1&query=Rua%20Pandiá%20Calógeras%2C%20527%2C%20Centro%2C%20Aquidauana%20MS%2C%2079200-000" target="_blank" rel="noopener">R. Pandiá Calógeras, 527<br>Centro — Aquidauana/MS<br>CEP 79200-000</a><span>Segunda a sexta</span><span>7h–11h e 13h–17h</span></div>
+      <div><h4>Contato</h4><a href="https://wa.me/5567998274419?text=Olá%2C%20vim%20pelo%20site%20da%20Acácia%20Contabilidade%20e%20gostaria%20de%20conversar." target="_blank" rel="noopener">WhatsApp: (67) 99827-4419</a><a href="tel:+5567998274419">Ligar para o escritório</a><a href="https://www.instagram.com/acaciacontabilidade/" target="_blank" rel="noopener">@acaciacontabilidade</a></div>
     </div>
-    <div class="container footer-bottom"><span>© <span id="year"></span> Escritório de Contabilidade Acácia</span><span>Demo institucional — dados provisórios</span></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Acácia Contabilidade</span><span>Conhecimento, cuidado e proximidade.</span></div>
   </footer>
 
-  <a class="whatsapp-float" href="https://wa.me/5567999999999" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp">
+  <a class="whatsapp-float" href="https://wa.me/5567998274419?text=Olá%2C%20vim%20pelo%20site%20da%20Acácia%20Contabilidade%20e%20gostaria%20de%20conversar." target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp">
     <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.3 19.4L3 29l6.8-1.7A13 13 0 1 0 16 3Zm0 23.6a10.5 10.5 0 0 1-5.4-1.5l-.4-.2-4 .9 1-3.9-.3-.4A10.5 10.5 0 1 1 16 26.6Zm5.8-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.8.2-.2.3-.8 1-.9 1.2-.2.2-.4.2-.7.1-2-.8-3.4-2.5-3.9-3.4-.2-.3 0-.5.1-.7l.5-.6.3-.6c.1-.2 0-.5 0-.6l-1-2.3c-.2-.5-.5-.5-.8-.5h-.7c-.3 0-.7.1-1 .5-.4.4-1.4 1.4-1.4 3.3 0 2 1.4 3.8 1.6 4.1.2.3 2.8 4.3 6.8 6 .9.4 1.7.6 2.3.7 1 .3 1.8.3 2.5.2.8-.1 2.5-1 2.8-2 .4-1 .4-1.9.3-2.1-.1-.2-.3-.3-.6-.5Z"/></svg>
   </a>
 

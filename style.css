@@ -254,3 +254,68 @@ svg { display: block; }
   * { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* Identidade oficial e dados reais */
+.brand { gap: 0; }
+.brand-logo {
+  width: 248px;
+  height: 68px;
+  object-fit: contain;
+  object-position: left center;
+}
+.brand-mark, .brand-copy { display: none; }
+.brand-footer {
+  display: inline-flex;
+  padding: 8px 12px;
+  border-radius: 14px;
+  background: #fff;
+}
+.footer-logo {
+  width: 220px;
+  height: 82px;
+  object-fit: contain;
+}
+.contact-details {
+  display: grid;
+  gap: 10px;
+  margin-top: 16px;
+}
+.contact-details > a,
+.contact-details > div {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 10px;
+  padding: 11px 13px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: rgba(255,255,255,.78);
+  transition: .2s ease;
+}
+.contact-details > a:hover {
+  border-color: rgba(31,91,169,.35);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 24px rgba(9,38,83,.07);
+}
+.contact-details strong {
+  color: var(--navy);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+.contact-details span {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+.footer a { line-height: 1.55; }
+
+@media (max-width: 720px) {
+  .brand-logo { width: 205px; height: 58px; }
+  .footer-logo { width: 205px; height: 76px; }
+  .contact-details > a,
+  .contact-details > div { grid-template-columns: 1fr; gap: 2px; }
+}
+
+@media (max-width: 390px) {
+  .brand-logo { width: 180px; height: 54px; }
+}
