@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Escritório de Contabilidade Acácia — sem limites para aprender, sempre prontos para servir." />
+  <title>Escritório de Contabilidade Acácia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header" id="inicio">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Escritório de Contabilidade Acácia - início">
+        <span class="brand-mark"><span>AC</span></span>
+        <span class="brand-copy">
+          <strong>Escritório de Contabilidade</strong>
+          <small>Acácia</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#departamentos">Departamentos</a>
+        <a href="#equipe">Nossa equipe</a>
+        <a class="nav-cta" href="#contato">Contato <span>⌄</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-overlay"></div>
+      <div class="hero-warmth"></div>
+      <div class="container hero-content reveal">
+        <span class="hero-kicker">CONTABILIDADE FEITA POR PESSOAS, PARA PESSOAS</span>
+        <h1 id="hero-title">Escritório de<br>Contabilidade Acácia</h1>
+        <p class="hero-phrase">Sem limites para aprender. Sempre prontos para servir.</p>
+        <p class="hero-description">Soluções contábeis para empresas, produtores rurais e pessoas físicas, com conhecimento, cuidado e proximidade.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contato">Entre em contato <span>→</span></a>
+          <a class="btn btn-light" href="#servicos">Conheça nossos serviços <span>→</span></a>
+        </div>
+        <div class="hero-proof" aria-label="Diferenciais da Acácia">
+          <div><strong>Desde 2007</strong><span>construindo relações de confiança</span></div>
+          <div><strong>Aprendizado contínuo</strong><span>para servir cada vez melhor</span></div>
+          <div><strong>Atendimento próximo</strong><span>porque cada história importa</span></div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#servicos" aria-label="Conhecer os serviços"><span></span></a>
+    </section>
+
+    <section class="audience-section" id="servicos">
+      <div class="container">
+        <div class="section-intro reveal">
+          <div>
+            <span class="eyebrow">COMO PODEMOS AJUDAR</span>
+            <h2>Conhecimento técnico.<br><em>Cuidado humano.</em></h2>
+          </div>
+          <p>Não atendemos apenas documentos e obrigações. Atendemos pessoas, sonhos, empresas e histórias que merecem ser cuidadas com responsabilidade.</p>
+        </div>
+
+        <div class="audience-grid">
+          <article class="audience-card business reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 21V7l8-4 8 4v14M9 9h2m2 0h2M9 13h2m2 0h2M9 17h6M3 21h18"/></svg>
+            </div>
+            <div class="card-copy">
+              <h3>Empresas</h3>
+              <p>Gestão contábil completa para trazer segurança, organização e espaço para o seu negócio crescer.</p>
+              <a href="#contato">Saiba mais <span>→</span></a>
+            </div>
+            <div class="card-art art-business" aria-hidden="true"><span></span><span></span><span></span></div>
+          </article>
+
+          <article class="audience-card rural reveal reveal-delay">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 21V11m0 0c0-4 3-7 7-7 0 4-3 7-7 7Zm0 4c0-3-2-5-6-5 0 3 2 5 6 5Z"/></svg>
+            </div>
+            <div class="card-copy">
+              <h3>Produtor rural</h3>
+              <p>Soluções especializadas para cuidar da atividade rural, da organização dos documentos e das decisões do campo.</p>
+              <a href="#contato">Saiba mais <span>→</span></a>
+            </div>
+            <div class="card-art art-rural" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          </article>
+
+          <article class="audience-card people reveal reveal-delay-2">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2m6.5-10a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm8.5 10v-2a4 4 0 0 0-3-3.87m1-11.8a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div class="card-copy">
+              <h3>Pessoa física</h3>
+              <p>Orientação contábil e fiscal para você e sua família, com clareza, tranquilidade e acolhimento.</p>
+              <a href="#contato">Saiba mais <span>→</span></a>
+            </div>
+            <div class="card-art art-people" aria-hidden="true"><span class="person p1"></span><span class="person p2"></span><span class="person p3"></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="human-section" id="sobre">
+      <div class="container human-grid">
+        <div class="human-photo reveal">
+          <img src="assets/team-meeting.jpg" alt="Equipe reunida em um ambiente de trabalho colaborativo" />
+          <span class="photo-note">Imagem ilustrativa — substituir por uma foto real da equipe</span>
+          <div class="human-badge"><strong>+ conhecimento</strong><span>+ capacidade de servir</span></div>
+        </div>
+
+        <div class="human-copy reveal reveal-delay">
+          <span class="eyebrow">A NOSSA FORMA DE TRABALHAR</span>
+          <h2>Em um mundo cada vez mais automático, escolhemos continuar próximos.</h2>
+          <p class="lead">A tecnologia facilita processos. Mas são a escuta, o cuidado e a responsabilidade que constroem confiança.</p>
+          <p>Quando ainda não temos uma resposta, pesquisamos. Quando precisamos evoluir, estudamos. Quando o cliente precisa de apoio, estamos presentes.</p>
+          <div class="care-list">
+            <div><span>01</span><p><strong>Escutamos antes de orientar.</strong> Cada cliente possui uma realidade, uma história e necessidades próprias.</p></div>
+            <div><span>02</span><p><strong>Explicamos com clareza.</strong> O conhecimento só é útil quando traz segurança para quem precisa decidir.</p></div>
+            <div><span>03</span><p><strong>Crescemos juntos.</strong> Investimos nas pessoas da equipe para cuidar cada vez melhor das pessoas que confiam em nós.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="departments" id="departamentos">
+      <div class="container departments-grid">
+        <div class="departments-heading reveal">
+          <span class="eyebrow light">UM ESCRITÓRIO COMPLETO</span>
+          <h2>Várias áreas.<br>Um só compromisso.</h2>
+          <p>Trabalhamos de forma integrada para que o cliente não se sinta perdido entre departamentos, prazos e obrigações.</p>
+          <a class="btn btn-outline-light" href="#contato">Conte seu desafio <span>→</span></a>
+        </div>
+
+        <div class="department-list">
+          <article class="department-item reveal"><span>01</span><div><h3>Contábil</h3><p>Organização, demonstrações e informações para decisões mais conscientes.</p></div></article>
+          <article class="department-item reveal reveal-delay"><span>02</span><div><h3>Fiscal e tributário</h3><p>Apuração, cumprimento de obrigações e orientação responsável.</p></div></article>
+          <article class="department-item reveal reveal-delay-2"><span>03</span><div><h3>Departamento pessoal</h3><p>Cuidado com as rotinas trabalhistas e com as pessoas da sua empresa.</p></div></article>
+          <article class="department-item reveal"><span>04</span><div><h3>Produtor rural</h3><p>Livro Caixa, escrituração, organização documental e apoio especializado.</p></div></article>
+          <article class="department-item reveal reveal-delay"><span>05</span><div><h3>Consultoria e regularização</h3><p>Estudo do problema e busca pelo caminho mais seguro para cada situação.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="team-section" id="equipe">
+      <div class="container team-content reveal">
+        <span class="eyebrow">PESSOAS QUE APRENDEM PARA SERVIR</span>
+        <h2>O crescimento da Acácia começa no crescimento de cada colaborador.</h2>
+        <p>Capacitamos continuamente a equipe por meio de cursos, treinamentos, troca de experiências e tecnologia. Cada novo conhecimento se transforma em mais segurança e cuidado para o cliente.</p>
+        <div class="team-values">
+          <div><strong>Aprendizado</strong><span>contínuo</span></div>
+          <div><strong>Atendimento</strong><span>acolhedor</span></div>
+          <div><strong>Responsabilidade</strong><span>em cada detalhe</span></div>
+          <div><strong>Ambição</strong><span>para ir além</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contato">
+      <div class="container contact-card reveal">
+        <div class="contact-copy">
+          <span class="eyebrow">VAMOS CONVERSAR?</span>
+          <h2>Antes de falar de números, queremos conhecer a sua história.</h2>
+          <p>Conte sua necessidade, seu momento ou o desafio que está enfrentando. A Acácia está pronta para ouvir, estudar e buscar a melhor orientação.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn btn-primary btn-large" href="https://wa.me/5567999999999" target="_blank" rel="noopener">Chamar no WhatsApp <span>→</span></a>
+          <a class="contact-link" href="mailto:contato@acaciacontabilidade.com.br">contato@acaciacontabilidade.com.br</a>
+          <small>Telefone e e-mail provisórios para a demonstração</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand brand-footer" href="#inicio">
+          <span class="brand-mark"><span>AC</span></span>
+          <span class="brand-copy"><strong>Escritório de Contabilidade</strong><small>Acácia</small></span>
+        </a>
+        <p>Sem limites para aprender.<br>Sempre prontos para servir.</p>
+      </div>
+      <div><h4>Navegação</h4><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#departamentos">Departamentos</a><a href="#equipe">Equipe</a></div>
+      <div><h4>Atendimento</h4><span>Aquidauana — MS</span><span>Segunda a sexta</span><span>Horário a confirmar</span></div>
+      <div><h4>Contato</h4><a href="#contato">WhatsApp</a><a href="#contato">Instagram</a><a href="#contato">E-mail</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Escritório de Contabilidade Acácia</span><span>Demo institucional — dados provisórios</span></div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5567999999999" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.3 19.4L3 29l6.8-1.7A13 13 0 1 0 16 3Zm0 23.6a10.5 10.5 0 0 1-5.4-1.5l-.4-.2-4 .9 1-3.9-.3-.4A10.5 10.5 0 1 1 16 26.6Zm5.8-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.8.2-.2.3-.8 1-.9 1.2-.2.2-.4.2-.7.1-2-.8-3.4-2.5-3.9-3.4-.2-.3 0-.5.1-.7l.5-.6.3-.6c.1-.2 0-.5 0-.6l-1-2.3c-.2-.5-.5-.5-.8-.5h-.7c-.3 0-.7.1-1 .5-.4.4-1.4 1.4-1.4 3.3 0 2 1.4 3.8 1.6 4.1.2.3 2.8 4.3 6.8 6 .9.4 1.7.6 2.3.7 1 .3 1.8.3 2.5.2.8-.1 2.5-1 2.8-2 .4-1 .4-1.9.3-2.1-.1-.2-.3-.3-.6-.5Z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
